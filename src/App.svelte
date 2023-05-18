@@ -29,7 +29,6 @@
       </div>
     </div>
     <div class="rightside">
-      <h4>Defining speed:</h4>
       <div class="framecontainer">
 
         <div class="bubble"></div>
