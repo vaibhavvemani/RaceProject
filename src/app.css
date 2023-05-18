@@ -1,0 +1,144 @@
+:root {
+  --background: #130f06;
+  --text: #fbe4e4;
+  --primary: #e65c5c;
+  --secondary: #000000;
+  --accent: #fc58aa;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text)
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 10px solid var(--secondary); */
+}
+
+nav {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.navitems {
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navitems li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.contactbtn {
+  height: 35px;
+  width: 8rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background-color: var(--primary);
+  color: var(--text);
+  font-size: 18px;
+  text-align: center;
+}
+
+.landingpagecontainer {
+  display: flex;
+  height: 87vh;
+  width: 100vw;
+  background-image: url("./assets/flashSpeedsWall.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: fill;
+}
+
+.leftside {
+  padding: 4rem;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  /* background-color: var(--secondary); */
+}
+
+.color-effect {
+  background: linear-gradient(120deg, var(--primary), var(--accent));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.salebtncontainer {
+  display: flex;
+  gap: 20px;
+}
+
+.salebtn {
+  height: 2rem;
+  width: 11rem;
+  border: 0;
+  border-radius: 4px;
+  color: var(--text);
+  font-size: 16px;
+}
+
+.raceme {
+  background-color: #dd2222;
+}
+
+.wanker {
+  background-color: #4fb458;
+}
+
+.rightside {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--secondary); */
+}
+
+.framecontainer {
+  position: relative;
+  height: 80%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 80px;
+  background-color: #e65c5c;
+}
+
+.frame {
+  height: 100%;
+  width: 70%;
+  background-image: url("./assets/plainF1White.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+}
