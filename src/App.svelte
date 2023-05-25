@@ -1,5 +1,5 @@
 <script>
-
+  import List from "./lib/list.svelte";
 </script>
 
 <main>
@@ -42,4 +42,6 @@
       </div>
     </div>
   </div>
+
+  <List />
 </main>
