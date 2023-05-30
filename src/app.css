@@ -61,7 +61,7 @@ nav {
   background-image: url("./assets/flashSpeedsWall.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .leftside {
@@ -131,6 +131,15 @@ nav {
   left: 0;
   width: 70px;
   height: 80px;
+  background-color: #e65c5c;
+}
+
+.bubble2 {
+  position: absolute;
+  bottom: 0;
+  left: 35px;
+  width: 30px;
+  height: 120px;
   background-color: #e65c5c;
 }
 

@@ -8,10 +8,10 @@
     <nav>
       <ul class="navitems">
         <li>
-          Teams
+          Cars
         </li>
         <li>
-          Drivers
+          Balance
         </li>
         <li>
           <button class="contactbtn">Contact</button>
