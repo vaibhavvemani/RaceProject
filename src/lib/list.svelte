@@ -1,5 +1,6 @@
 <script>
-
+    import { AMG_Count } from "../stores/car";
+    import { FER_Count } from "../stores/car";
 </script>
 
 <div class="car-list-container">
@@ -9,9 +10,9 @@
 
         </div>
         <div class="info">
-            <button class="remove">-</button>
-            <h2>$1234</h2>
-            <button class="add">+</button>
+            <button on:click={AMG_Count.decrement} class="remove">-</button>
+            <h2>{$AMG_Count ? $AMG_Count: "$1234"}</h2>
+            <button on:click={AMG_Count.increment} class="add">+</button>
         </div>
     </div>
     <div class="car ferrari">
@@ -19,9 +20,9 @@
 
         </div>
         <div class="info">
-            <button class="remove">-</button>
-            <h2>$1234</h2>
-            <button class="add">+</button>
+            <button on:click={FER_Count.decrement} class="remove">-</button>
+            <h2>{$FER_Count ? $FER_Count: "$1234"}</h2>
+            <button on:click={FER_Count.increment} class="add">+</button>
         </div>
     </div>
     <div class="car merc">
@@ -93,7 +94,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        column-gap: 2rem~;
+        column-gap: 2rem;
     }
     .info button {
         border: none;
