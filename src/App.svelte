@@ -43,5 +43,5 @@
     </div>
   </div>
 
-  <List />
+  <!-- <List /> -->
 </main>
